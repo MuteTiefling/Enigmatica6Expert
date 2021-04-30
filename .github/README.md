@@ -1,6 +1,6 @@
-# Enigmatica 6
+# Enigmatica 6: Expert
 
-This is the official repository and issue-tracker for the modpack Enigmatica 6, for Minecraft 1.16.5
+This is the official repository and issue-tracker for the modpack Enigmatica 6: Expert, for Minecraft 1.16.5
 
 ### Table of Contents
 
@@ -101,6 +101,6 @@ It's based on [Docker Minecraft Server](https://github.com/itzg/docker-minecraft
 
 ## Links
 
--   [CurseForge](https://www.curseforge.com/minecraft/modpacks/enigmatica6)
+-   [CurseForge NYI](https://www.curseforge.com/minecraft/modpacks/enigmatica6expert)
 
 -   [Discord](https://discord.gg/HnWNd7X)
