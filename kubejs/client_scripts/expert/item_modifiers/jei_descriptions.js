@@ -1,7 +1,4 @@
 events.listen('jei.information', (event) => {
-    if (global.isExpertMode == false) {
-        return;
-    }
     const recipes = [
         {
             items: ['tiab:timeinabottle'],

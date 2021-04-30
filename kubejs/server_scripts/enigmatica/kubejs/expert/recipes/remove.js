@@ -1,8 +1,4 @@
 events.listen('recipes', (event) => {
-    if (global.isExpertMode == false) {
-        return;
-    }
-
     const idRemovals = [
         'pneumaticcraft:explosion_crafting/compressed_iron_ingot',
         'pneumaticcraft:explosion_crafting/compressed_iron_block'

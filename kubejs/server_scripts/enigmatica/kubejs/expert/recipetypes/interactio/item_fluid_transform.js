@@ -1,5 +1,1 @@
-events.listen('recipes', (event) => {
-    if (global.isExpertMode == false) {
-        return;
-    }
-});
+events.listen('recipes', (event) => {});

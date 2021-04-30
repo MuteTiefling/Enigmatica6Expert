@@ -1,8 +1,4 @@
 events.listen('recipes', (event) => {
-    if (global.isExpertMode == false) {
-        return;
-    }
-
     const recipes = [
         {
             filter: { id: 'create:crafting/kinetics/mechanical_piston' },

@@ -1,8 +1,4 @@
 events.listen('recipes', (event) => {
-    if (global.isExpertMode == false) {
-        return;
-    }
-
     const recipes = [
         {
             output: 'mekanism:hdpe_sheet',
