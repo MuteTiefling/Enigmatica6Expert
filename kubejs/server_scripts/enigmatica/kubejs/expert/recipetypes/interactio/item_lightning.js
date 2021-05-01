@@ -41,10 +41,13 @@ events.listen('recipes', (event) => {
     ];
 
     recipes.forEach((recipe) => {
-        event.custom({
+        const re = event.custom({
             type: 'interactio:item_lightning',
             inputs: recipe.inputs,
             output: recipe.output
         });
+        if (recipe.id) {
+            re.id(recipe.id);
+        }
     });
 });

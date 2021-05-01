@@ -18,12 +18,15 @@ events.listen('recipes', (event) => {
     ];
 
     recipes.forEach((recipe) => {
-        event.custom({
+        const re = event.custom({
             type: 'interactio:item_fluid_transform',
             inputs: recipe.inputs,
             output: recipe.output,
             fluid: recipe.fluid,
             consume_fluid: recipe.consume_fluid
         });
+        if (recipe.id) {
+            re.id(recipe.id);
+        }
     });
 });

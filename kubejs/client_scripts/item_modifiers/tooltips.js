@@ -27,6 +27,10 @@ onEvent('item.tooltip', (event) => {
         {
             items: ['powah:charged_snowball', 'thermal:lightning_charge'],
             text: [Text.of('Calls down a lightning bolt on impact.').gold()]
+        },
+        {
+            items: ['kubejs:altered_recipe_indicator'],
+            text: [Text.of('Recipe altered for Enigmatica 6: Expert. Refer to JEI.').gold()]
         }
     ];
 
